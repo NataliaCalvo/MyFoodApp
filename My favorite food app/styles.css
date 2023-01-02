@@ -25,9 +25,11 @@ img {
         padding-inline-start: 0;
         border-color: black;
         border: 1px;
+        border-radius: 10px;
         border-style:solid;
         margin-top: 15px;
         flex-grow: 1;
+
 
     }
         
@@ -35,7 +37,7 @@ img {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                width: 50%;
+                width: 70%;
                 padding-inline-start: 0;
                 border-color: black;
                 border: 1px;
@@ -56,14 +58,48 @@ img {
 
               }
 
-              #tiempo ul{
+              #tiempo {
                 display: flex;
                 flex-direction: column;
                 flex-wrap: nowrap;
                 list-style: none;
-                height: auto;
+                justify-content: center;
+                margin-top: 15px;
+
                 
               }
+              #cajasTexto {
+                display: flex;
+                flex-direction: column;
+                width: 80%;
+                list-style: none;
+              }
+        #preparacion {
+            display: flex;
+            flex-direction: column;
+            border: 1px;
+            border-style: solid;
+            margin-top: 15px;
+            width: 50%;
+            margin-left: 0;
+            align-content:initial;
+        }
+
+        #listaPreparacion{
+            list-style: decimal;
+        }
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-top: 15px;
+    border: 2px;
+    border-style: solid;
+
+
+}
 
 
 
